@@ -6,7 +6,7 @@
             "version": "latest"
         }
     },
-    "postStartCommand": "bgmi=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$bgmi/m.py",
+    "postStartCommand": "Bgmi=$(basename $(git rev-parse --show-toplevel)); python3 /workspaces/$Bgmi/m.py",
     "customizations": {
         "vscode": {
             "settings": {
